@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ichy Car Rental</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Ichy Car Rental</h1>
+      <div class="space-x-6">
+        <a href="#aguadilla" class="text-gray-700 hover:text-blue-600">Aguadilla</a>
+        <a href="#san-sebastian" class="text-gray-700 hover:text-blue-600">San Sebastián</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-blue-600 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Alquila el auto perfecto con Ichy</h2>
+    <p class="text-lg">Tenemos las mejores opciones en Aguadilla y San Sebastián</p>
+  </section>
+
+  <!-- Sucursal Aguadilla -->
+  <section id="aguadilla" class="py-16 max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-blue-600 mb-6">Sucursal Aguadilla</h3>
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <img src="https://source.unsplash.com/600x400/?car,beach" alt="Aguadilla" class="rounded-xl shadow-md" />
+      <div>
+        <p class="mb-4">Ubicados cerca del aeropuerto Rafael Hernández, perfectos para turistas y locales.</p>
+        <ul class="list-disc list-inside mb-4">
+          <li>Amplia variedad de autos y SUVs</li>
+          <li>Entrega y recogida en el aeropuerto</li>
+          <li>Asistencia 24/7</li>
+        </ul>
+        <a href="tel:+17871234567" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">Llámanos en Aguadilla</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sucursal San Sebastián -->
+  <section id="san-sebastian" class="py-16 bg-gray-100 max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-blue-600 mb-6">Sucursal San Sebastián</h3>
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <p class="mb-4">Ideal para explorar el interior montañoso y disfrutar de festivales locales.</p>
+        <ul class="list-disc list-inside mb-4">
+          <li>Precios accesibles</li>
+          <li>Atención personalizada</li>
+          <li>Flota moderna y segura</li>
+        </ul>
+        <a href="tel:+17877654321" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">Llámanos en San Sebastián</a>
+      </div>
+      <img src="https://source.unsplash.com/600x400/?car,mountain" alt="San Sebastián" class="rounded-xl shadow-md" />
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="py-16 text-center">
+    <h3 class="text-3xl font-bold text-blue-600 mb-4">¿Listo para reservar?</h3>
+    <p class="mb-6">Contáctanos por WhatsApp o llámanos directamente, ¡estamos para servirte!</p>
+    <a href="https://wa.me/17871234567" class="inline-block bg-green-500 text-white px-8 py-4 rounded-lg shadow hover:bg-green-600">WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 mt-12 text-center text-gray-600 border-t">
+    &copy; 2025 Ichy Car Rental. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
